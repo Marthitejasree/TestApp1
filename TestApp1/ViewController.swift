@@ -9,9 +9,9 @@
 import UIKit
 import Alamofire
 
-class ViewController: UIViewController {
+open class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+   open override func viewDidLoad() {
         super.viewDidLoad()
         fetchFilms()
         // Do any additional setup after loading the view.
