@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1873459E2511E212002DF58C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873459D2511E212002DF58C /* AppDelegate.swift */; };
 		187345A02511E212002DF58C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873459F2511E212002DF58C /* SceneDelegate.swift */; };
-		187345A22511E212002DF58C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187345A12511E212002DF58C /* ViewController.swift */; };
+		187345A22511E212002DF58C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187345A12511E212002DF58C /* TestViewController.swift */; };
 		187345A52511E212002DF58C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187345A32511E212002DF58C /* Main.storyboard */; };
 		187345A82511E212002DF58C /* TestApp1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187345A62511E212002DF58C /* TestApp1.xcdatamodeld */; };
 		187345AA2511E214002DF58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187345A92511E214002DF58C /* Assets.xcassets */; };
@@ -43,7 +43,7 @@
 		1873459A2511E212002DF58C /* TestApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1873459D2511E212002DF58C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1873459F2511E212002DF58C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		187345A12511E212002DF58C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187345A12511E212002DF58C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		187345A42511E212002DF58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		187345A72511E212002DF58C /* TestApp1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestApp1.xcdatamodel; sourceTree = "<group>"; };
 		187345A92511E214002DF58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 			children = (
 				1873459D2511E212002DF58C /* AppDelegate.swift */,
 				1873459F2511E212002DF58C /* SceneDelegate.swift */,
-				187345A12511E212002DF58C /* ViewController.swift */,
+				187345A12511E212002DF58C /* TestViewController.swift */,
 				187345A32511E212002DF58C /* Main.storyboard */,
 				187345A92511E214002DF58C /* Assets.xcassets */,
 				187345AB2511E214002DF58C /* LaunchScreen.storyboard */,
@@ -168,7 +168,6 @@
 				67C19E16357D5A87778060C0 /* Pods-TestApp1Tests.debug.xcconfig */,
 				14A6027EED7CE5743B998FD4 /* Pods-TestApp1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -411,7 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187345A22511E212002DF58C /* ViewController.swift in Sources */,
+				187345A22511E212002DF58C /* TestViewController.swift in Sources */,
 				1873459E2511E212002DF58C /* AppDelegate.swift in Sources */,
 				187345A02511E212002DF58C /* SceneDelegate.swift in Sources */,
 				187345A82511E212002DF58C /* TestApp1.xcdatamodeld in Sources */,

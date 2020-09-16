@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-open class ViewController: UIViewController {
+open class TestViewController: UIViewController {
 
    open override func viewDidLoad() {
         super.viewDidLoad()
